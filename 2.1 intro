@@ -18,7 +18,8 @@ A.	var x = 3, y = 4, z = “there”, a = “true”;
 B.	var w = “number:” + 7 
 C.	var okay;
 Okay = 5;
-a is wrong because  you cant combine numbers with strings.
+c is wrong because of the case sensative 
+
 PART 3
 
 Create a function that takes in a number (called num) and string (called noun). Then returns the square of the number concatenated with the string. Ex: calling my_func(4, “hi”) returns 16 hi
