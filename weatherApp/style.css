@@ -1,3 +1,37 @@
 body {
-    background-color: aqua;
+    background-color: lightsalmon;
+    }
+ html {
+        background: url("http://gifimage.net/wp-content/uploads/2017/08/sunset-gif-14.gif") no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        }
+button{
+    background-size: 6cm
+    
+    }
+h1 {
+    border-style: dotted;
+    border-width: 2px;
+
+}  
+button{
+        background-color: lightgoldenrodyellow;
+        border: none;
+        color: black;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
 }
+label{
+
+}
+
+
+    

@@ -1,28 +1,36 @@
 <!DOCTYPE html>
     <html>
-    <form id="Weather">
-        <title>The Weather Channel </title>
-        <script type="text/javascript" src="click.js"></script>
-        <h1 style="text-align:center;">The Weather Channel</h1>
-        <fieldset>
-            <div>
-            <select name="Cities">
-                <option value="Sacramento, CA">Sacramento, CA</option>
-                <option values="Honolulu, HI">Honolulu, HI</option>
-                <option values="Phoenix, AZ">Phoenix, AZ</option>
-                <option values="Sunnyvale, CA">Sunnyvale, CA</option>
-                <option values="San Fransico, CA">San Fransico, CA</option>
-            </select>
+        <head>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+            <link rel="stylesheet" type="text/css" href="style.css">
+            <script type="text/javascript" src="click.js"></script>
+        </head>
+
+        <body>
+        <form id="weatherApp">
+            <title>The Weather Channel </title>
+            <h1>The Weather Channel</h1>
+            <fieldset>
+                <div>
+                    <label>Cities:</label>
+                    <select id="cities" name="cities">
+                    <option value="Sacramento, CA">Sacramento, CA</option>
+                    <option values="Honolulu, HI">Honolulu, HI</option>
+                    <option values="Phoenix, AZ">Phoenix, AZ</option>
+                    <option values="Sunnyvale, CA">Sunnyvale, CA</option>
+                    <option values="San Francisco, CA">San Francisco, CA</option>
+                </select>
             </div>
-        </fieldset>
-        <button type="submit">Get Weather</button>
-    </form>
-    <section id="weatherDisplay">
-        <h2 class="city-name"></h2>
-        <dl>
-            <dd class="weather-condition"></dd>
-            <dd class="weather-temp"></dd>
-        </dl>
-    </section>
+            <button type="submit">Get Weather</button>
+        </form>
+
+        <section id="weatherDisplay">
+            <h2 class="city-name"></h2>
+            <dl>
+                <dd class="weather-condition"></dd>
+                <dd class="weather-temp"></dd>
+            </dl>
+        </section>
+        </body>
     <html/>
     
